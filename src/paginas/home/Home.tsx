@@ -4,8 +4,8 @@ import './Home.css';
 function Home() {
   return (
     <>
-      <h1 className='titulo'>Home</h1>
-      <img src="https://avatars.githubusercontent.com/u/65048587?v=4" alt="Desenho de uma menina de óculos" className='img'/>
+      <h1 className='titulo'>Bem-vindes!</h1>
+      <img src="https://i.imgur.com/1RwWtgp.png" alt="Desenho de uma menina de óculos" className='img'/>
     </>
   );
 }
