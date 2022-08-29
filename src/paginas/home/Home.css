@@ -1,10 +1,23 @@
-.titulo {
-  color: #212F49;
-  text-align: center;
-  margin-top: 80px;
+.container {
+  background-color: #A3B3CD!important;
 }
 
-.img {
-  display: block;
-  margin: 0 auto;
+.btn {
+  background: #b84c65!important;
+  border: none!important;
+}
+
+.MuiTypography-h3, .MuiTypography-h5 {
+  font-family: 'Source Sans Pro', sans-serif!important;
+  font-weight: 600!important;
+}
+
+.MuiTypography-h6 {
+  font-family: 'Source Sans Pro', sans-serif!important;
+  font-weight: 400!important;
+}
+
+.MuiButton-root {
+  font-family: 'Source Sans Pro', sans-serif!important;
+  letter-spacing: 1px!important;
 }

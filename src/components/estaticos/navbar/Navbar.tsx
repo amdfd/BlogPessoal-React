@@ -4,11 +4,11 @@ import { AppBar, Toolbar, Typography } from "@material-ui/core";
 function Navbar() {
   return (
     <>
-      <AppBar position="static">
+      <AppBar position="static" style={{background: '#74849C', color: '#F2F2F2'}}>
         <Toolbar variant="dense">
-          <Box style={{ cursor: "pointer" }}>
+          <Box style={{ cursor: "default" }}>
             <Typography variant="h5" color="inherit">
-              BlogPessoal
+              Amanda Falcão //
             </Typography>
           </Box>
 

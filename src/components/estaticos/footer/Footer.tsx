@@ -1,7 +1,5 @@
 import { Grid, Typography } from "@material-ui/core";
 import { Box } from "@mui/material";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -11,7 +9,7 @@ function Footer() {
     <>
       <Grid container direction="row" justifyContent="center" alignItems="center">
                 <Grid alignItems="center" item xs={12}>
-                    <Box style={{ backgroundColor: "#3F51B5", height: "120px" }}>
+                    <Box style={{ backgroundColor: "#3F51B5", height: "120px", background: '#74849C', color: '#F2F2F2' }} className="footer-container">
                         <Box paddingTop={1} display="flex" alignItems="center" justifyContent="center">
                             <Typography variant="h5" align="center" gutterBottom style={{ color: "white" }}>Me siga nas redes sociais:</Typography>
                         </Box>
@@ -27,7 +25,7 @@ function Footer() {
                             </a>
                         </Box>
                     </Box>
-                    <Box style={{ backgroundColor: "#303F9F", height: "60px" }}>
+                    <Box style={{ backgroundColor: "#212f49", height: "60px" }}>
                         <Box paddingTop={1}>
                             <Typography variant="subtitle2" align="center" gutterBottom style={{ color: "white" }} >© 2020 Copyright:</Typography>
                         </Box>
