@@ -1,11 +1,11 @@
 .MuiTypography-subtitle2 {
-  font-family: 'Source Sans Pro', sans-serif!important;
+  font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 .footer-container {
-  background-color: #74849C!important;
-  color: #F2F2F2!important;
-  height: 120px!important;
+  background-color: #74849C !important;
+  color: #F2F2F2 !important;
+  height: 120px !important;
 }
 
 .footer-container-2 {
@@ -18,6 +18,6 @@
 }
 
 .redes {
-  font-size: 60px!important;
+  font-size: 60px !important;
   color: #F2F2F2;
 }

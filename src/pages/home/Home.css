@@ -1,0 +1,31 @@
+.container {
+  background-color: #A3B3CD !important;
+  min-height: 100vh;
+}
+
+.btn {
+  background: #b84c65 !important;
+  border: none !important;
+  color: #F2F2F2 !important;
+}
+
+.postagens {
+  background-color: #F2F2F2;
+}
+
+.MuiTypography-h3, .MuiTypography-h5 {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: 600 !important;
+  color: #F2F2F2 !important;
+}
+
+.MuiTypography-h6 {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: 400 !important;
+  color: #F2F2F2 !important;
+}
+
+.MuiButton-root {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  letter-spacing: 1px !important;
+}
