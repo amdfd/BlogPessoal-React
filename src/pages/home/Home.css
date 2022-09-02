@@ -13,7 +13,7 @@
   background-color: #F2F2F2;
 }
 
-.MuiTypography-h3, .MuiTypography-h5 {
+.titulo-h3, .titulo-h5 {
   font-family: 'Source Sans Pro', sans-serif !important;
   font-weight: 600 !important;
   color: #F2F2F2 !important;
