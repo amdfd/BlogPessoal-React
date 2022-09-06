@@ -33,7 +33,7 @@ function Footer() {
                         </Box>
                         <Box>
                             <a target="_blank" href="https://brasil.generation.org">
-                                <Typography variant="subtitle2" gutterBottom className="sub-2" align="center">brasil.generation.org</Typography>
+                                <Typography variant="subtitle2" gutterBottom className="sub-2 text-decorator-none" align="center">brasil.generation.org</Typography>
                             </a>
                         </Box>
                     </Box>
