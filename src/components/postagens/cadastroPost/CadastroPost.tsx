@@ -121,6 +121,7 @@ function CadastroPost() {
           id="titulo"
           label="Título"
           variant="outlined"
+          placeholder="Insira no mínimo 3 caracteres"
           name="titulo"
           margin="normal"
           fullWidth
@@ -132,6 +133,7 @@ function CadastroPost() {
           label="Texto"
           name="texto"
           variant="outlined"
+          placeholder="Insira no mínimo 5 caracteres"
           margin="normal"
           fullWidth
         />
