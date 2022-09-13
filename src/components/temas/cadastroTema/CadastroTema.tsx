@@ -7,6 +7,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import "./CadastroTema.css";
 import { useSelector } from "react-redux";
 import { TokenState } from "../../../store/tokens/tokensReducer";
+import { toast } from "react-toastify";
 
 function CadastroTema() {
   let navigate = useNavigate();
@@ -21,7 +22,15 @@ function CadastroTema() {
 
   useEffect(() => {
     if (token == "") {
-      alert("Você precisa estar logado!");
+      toast.error('Você precisa estar logado!', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
       navigate("/login");
     }
   }, [token]);
@@ -57,10 +66,26 @@ function CadastroTema() {
                 'Authorization': token
             }
         })
-        alert('Tema atualizado com sucesso!');
+        toast.success('Tema atualizado com sucesso!', {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          });
     } catch (error) {
       console.log(`Error: ${error}`)
-      alert("Erro, por favor verifique a quantidade mínima de caracteres.")
+      toast.error('Por favor verifique a quantidade mínima de caracteres.', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
     } 
     
   } else {
@@ -70,10 +95,26 @@ function CadastroTema() {
                 'Authorization': token
             }
         })
-        alert('Tema cadastrado com sucesso!');
+        toast.success('Tema cadastrado com sucesso!', {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          });
     } catch (error) {
       console.log(`Error: ${error}`)
-      alert("Erro, por favor verifique a quantidade mínima de caracteres.")
+      toast.error('Por favor verifique a quantidade mínima de caracteres.', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
     }
   }
 

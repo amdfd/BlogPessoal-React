@@ -8,6 +8,8 @@ import CadastroUsuario from "./pages/cadastroUsuario/CadastroUsuario";
 import ListaTema from "./components/temas/listatema/ListaTema";
 import ListaPostagem from "./components/postagens/listapostagem/ListaPostagem";
 import NotFound from "./pages/notFound/NotFound";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import "./App.css";
 import CadastroPost from "./components/postagens/cadastroPost/CadastroPost";
@@ -20,6 +22,7 @@ import store from "./store/store";
 function App() {
   return (
     <Provider store={store}>
+      <ToastContainer />
       <Router>
         <Navbar />
         <div style={{ minHeight: "100vh" }}>
